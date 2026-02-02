@@ -1,0 +1,9 @@
+[workspace]
+resolver = "3"
+members = [
+    "monotonic",
+    "monotonic_mock",
+]
+
+[workspace.dependencies]
+monotonic = { path = "./monotonic" }
